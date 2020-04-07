@@ -1,7 +1,11 @@
 import java.util.*
 
 fun main(args: Array<String>) {
-    dateOfWeek()
+    //dateOfWeek()
+
+    // print the same
+    //println("${if(args[0].toInt() < 12)"Good Morning, Kotlin" else "Good Night, Kotlin"}")
+    //if(args[0].toInt() < 12) println("Good Morning, Kotlin") else println("Good Night, Kotlin")
 }
 
 fun dateOfWeek() {
